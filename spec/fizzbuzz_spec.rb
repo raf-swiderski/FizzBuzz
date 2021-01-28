@@ -19,4 +19,13 @@ describe 'fizzbuzz' do
   it 'returns 8 when passed 8' do
     expect(fizzbuzz(8)).to eq 8
   end
+  it 'returns "fizzbuzz" when passed 30' do
+    expect(fizzbuzz(30)).to eq 'fizzbuzz'
+  end
+  it 'returns "buzz" when passed 25' do
+    expect(fizzbuzz(25)).to eq 'buzz'
+  end
+  it 'returns "fizzbuzz" when passed 60' do
+    expect(fizzbuzz(60)).to eq 'fizzbuzz'
+  end
 end
