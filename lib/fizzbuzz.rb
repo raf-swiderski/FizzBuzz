@@ -1,11 +1,11 @@
 def fizzbuzz(number)
-  if number == 3 || number == 6
-    'fizz'
-  elsif number == 4 || number == 7 || number == 8
-    number
-  elsif number == 5 || number == 25
-    'buzz'
-  elsif number == 30 || number == 60
+  if number % 3 == 0 && number % 5 == 0
     'fizzbuzz'
+  elsif number % 3 == 0
+    'fizz'
+  elsif number % 5 == 0
+    'buzz'
+  else
+    number
   end
 end
